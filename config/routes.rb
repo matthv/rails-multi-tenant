@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  mount ForestLiana::Engine => '/forest'
   resources :owners
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
